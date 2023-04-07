@@ -4,7 +4,7 @@ import python_weather
 
 
 
-bot = Bot(token="5498009526:AAE7VKZtUjGzltot81wzW6lWA1FF2cFb6f8")
+bot = Bot(token="API")
 dp = Dispatcher(bot)
 client = python_weather.Client(format=python_weather.IMPERIAL, locale="ru-RU")
 
